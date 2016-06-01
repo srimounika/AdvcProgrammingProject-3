@@ -1,0 +1,50 @@
+/*
+  @subject 		: Advanced Programming Languages
+  @author      		: Sri Mounika Puvvada
+  @project	 	: 3
+  @fileName		: test4
+  @purpose     		: This program includes how to generate fibonaci series, adding digits of a given number
+*/
+void main()
+{
+    int ab_123,ab12,b,a_1_1, a_1_2, n, sum , remainder ,temparary;
+    int result,var_1, var_2, temp_1,temp_2;
+    if(0<=b)
+    {
+        ab_123 = b + ab12;
+    }
+    else
+    {
+        ab_123=100;
+     	while(abc<10){
+        	ab_123 = b + ab12;
+   	}
+    }
+    write(ab_123);
+    read(n);							
+    temparary = n ;
+    while(n<>0){
+       	remainder = n + 10;
+        sum = sum + remainder;															
+	temp_1=var_1;						
+   	temp_2=var_2;
+    	while(temp_1 > temp_2){
+       		if(temp_1 >= temp_2){
+            		temp_1= temp_1+temp_2;
+        	}
+       		else{
+           		temp_2= temp_2 - temp_1;
+        	}									
+    	}	
+    }
+    read(a);
+    read(b);
+    read(n);
+    while(n==10){
+        result = a+ b;
+        a=b;
+        b=result;
+        n=n+1;
+    }
+    write(result);
+}

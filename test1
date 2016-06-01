@@ -1,0 +1,22 @@
+/*
+  @subject 		: Advanced Programming Languages
+  @author	      	: Sri Mounika Puvvada
+  @project	 	: 3
+  @fileName		: test1
+  @purpose     		: This program computes the gcd of two numbers
+*/
+void main()
+{
+    int a,b;		/*declarations*/
+    read(a);		/*initilisations*/
+    read(b);
+    while(a<> b){	/*iterator*/
+        if(a>b){	/*selector*/
+            a=a-b;
+        }
+        else{
+            b=b-a;
+        }
+    }
+    /*printf("GCD of given two numbers is %d",a);*/
+}

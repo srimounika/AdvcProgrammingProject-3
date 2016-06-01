@@ -1,0 +1,24 @@
+/*
+  @subject 		: Advanced Programming Languages
+  @aauthor      : Sri Mounika Puvvada
+  @project	 	: 3
+  @fileName		: test8
+  @purpose     	: illegal file to to display the error message of keyword MAIN missing
+ */
+void (){
+    int a,b,c,n;
+    if(a==0){
+        a=a-b;
+    }
+    else{
+	a=2+ a;
+    }
+    while(n>5){
+        c=a+b;
+        a=c-a;
+        /*
+        printf("%d",c);
+        */
+        write(c);
+    }
+}
